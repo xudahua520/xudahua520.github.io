@@ -1,0 +1,18 @@
+/* 站点文章列表(包含友情链接等页面)透明 */
+[data-theme=light] {
+	--card-bg: rgba(255, 255, 255, .600) !important;
+}
+
+[data-theme=dark] {
+	--card-bg: rgba(26, 27, 28, .600) !important;
+	--btn-bg: #121212 !important;
+}
+
+/* 站点顶部背景透明 */
+[data-theme='dark'] #page-header:before {
+	background: #00000000;
+}
+
+[data-theme='light'] #page-header:before {
+	background: #00000000;
+}
