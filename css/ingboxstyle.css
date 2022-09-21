@@ -1,10 +1,10 @@
 /* 站点文章列表(包含友情链接等页面)透明 */
 [data-theme=light] {
-	--card-bg: rgba(255, 255, 255, .1) !important;
+	--card-bg: rgba(255, 255, 255, .800) !important;
 }
 
 [data-theme=dark] {
-	--card-bg: rgba(26, 27, 28, .600) !important;
+	--card-bg: rgba(26, 27, 28, .800) !important;
 	--btn-bg: #121212 !important;
 }
 
