@@ -72,16 +72,3 @@
     left: 50%;
     transform: translate(-50%, -48px);
 }
-
-/* 首页内容列表格式 */
-.layout > div:first-child:not(.recent-posts) {
-  -webkit-align-self: flex-start;
-  align-self: flex-start;
-  -ms-flex-item-align: start;
-  padding: 50px 40px;
-}
-@media screen and (max-width: 768px) {
-  .layout > div:first-child:not(.recent-posts) {
-    padding: 36px 14px;
-  }
-}
