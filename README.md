@@ -1,2 +1,2 @@
 # xudahua520.github.io
-博客
+xudahua520的HEXO博客
